@@ -14,3 +14,6 @@ jobs:
           asoc_secret: ${{secrets.ASOC_SECRET}}
           application_id: aacf9bfa-d096-415e-854b-c6a4711e6e15
           service_url: https://eu.cloud.appscan.com
+          wait_for_analysis: true
+          scan_build_outputs: true
+          fail_for_noncompliance: true
